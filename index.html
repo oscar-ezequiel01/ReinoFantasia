@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>El reino de la fantasia</title>
+    <link href="./estilos/estilo.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" sizes="96x96" href="./imagenes/icono.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./javascripts/misjs.js"></script>
+</head>
+<body>
+   <div id="wrapper">
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="#inicio" class="active">Inicio</a>
+                <a href="#presentacion">Presentación</a>
+                <a href="#parallax">Parallax</a>
+                
+                
+                <a href="#galeria">Libros</a>  
+                <a href="#preguntas">Personajes</a> 
+                <a href="#objetos">Objetos</a>
+                <a href="#contacto">Contacto</a>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+              </div>
+              
+        </nav>
+       
+        <header id="inicio">
+            
+        </header>       
+        
+        <section id="presentacion">
+            <div class="titulo-seccion">
+              <h2>Cronicas del reino de la Fantasia</h2>
+              <p>Sipnosis general de la saga</p>
+            </div>
+            <!-- ESTO ESTÁ MAQUETADO EN MITADES -->
+          
+            <div class="mitad" id="izda">
+              Esta saga de novelas narra la historia de Sombrio/Audaz un joven elfo que poco a poco descubrira su destino, enfrantandose a numerosos
+              obstacuos y pruebas en su camino, para acabar con la tirania de las brujas, mientras va reuniendo las piezas del puzzle sobre su historia,
+              junto a sus amigos y su dragon.
+
+            </div>
+            <div class="mitad" id="dcha">
+              Esta  es una muy buena historia de avenuras junto al genero de fantasia, lo idela si el lector desea porder desconectar un rato y 
+              sumergirse en esta gran historia, los libros no cuentan con mas de 400 páginas cada uno, ademas cuentan con algunas partes sobre la mitad 
+              en la que cuenta una historia que a ocurrido durante el transcuso del libro que no se detalla, es mas esta se presenta en un formato de comic
+            </div>
+            <!-- DIV VACÍO PARA ROMPER EL FLOAT-->
+            <div class="final"></div>
+        </section>
+        <!-- SECTION CON PARALLAX PARA PROBAR-->
+        <section id="parallax" class="parallax">
+          
+
+        </section>
+
+        
+        <!-- SECCIÓN GALERÍA CON SLIDER O CAROUSEL-->
+        <section id="galeria">
+          <div class="titulo-seccion">
+            <h2>Libros</h2>
+            
+          </div>
+<!-- CÓDIGO DE SLIDESHOW DE W3SCHOOL -->
+
+          <!-- Container for the image gallery -->
+  <div class="container">
+
+    <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 4</div>
+      <img src="./imagenes/libro1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 4</div>
+      <img src="./imagenes/libro2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 4</div>
+      <img src="./imagenes/libro3.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 4</div>
+      <img src="./imagenes/libro4.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">5 / 5</div>
+      <img src="./imagenes/libro5.jfif" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="./imagenes/libro6.jpg" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="./imagenes/libro1.jpg" style="width:100%" onclick="currentSlide(1)" alt="El reino perdido">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./imagenes/libro2.jpg" style="width:100%" onclick="currentSlide(2)" alt="La puerta encantada">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./imagenes/libro3.jpg" style="width:100%" onclick="currentSlide(3)" alt="El bosque embrujado">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./imagenes/libro4.jpg" style="width:100%" onclick="currentSlide(4)" alt="El anillo de luz">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./imagenes/libro5.jfif" style="width:100%" onclick="currentSlide(4)" alt="La isla petrificada">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./imagenes/libro6.jpg" style="width:100%" onclick="currentSlide(4)" alt="El secreto de lo caballeros">
+    </div>
+  
+  </div>
+</div>
+
+        </section>
+        <!-- PREGUNTAS FRECUENTES CON ACCORDION DE W3SCHOOL -->
+        <section id="preguntas">
+          <div class="titulo-seccion">
+            <h2>Descripcion de los personajes</h2>
+            
+          </div>
+
+          <button class="accordion">Sombrio/Audaz</button>
+          <div class="panel">
+            <img src="./imagenes/Sombrío.jpg" alt="lo que sea">
+            <p>Este joven es Sombrio,un elfo que pertenece a 3 clanes, a los elfos oscuros, a los efos estrellados y los elfos del bosque, hijo de un caballero de la rosa, elegido por la reina de las hadas como su caballero, otorgandole la mision de <r>
+              embarcarse en una gran avetura junto a sus amigos para detener los malvados planes de las brujas y restablecer la orden de los caballeros de la rosa </p>
+          
+          </div>
+          <button class="accordion">Spica</button>
+          <div class="panel">
+            <img src="./imagenes/Spica.jpg" alt="lo que sea">
+            <p>Esta joven es Spika una elfa estrellada, vive junto Sombrio y su hermano Regulus, ella se unio a la aventura un poco mas tarde, pero aun a si  <r>
+              demostro su valor y determiacion para ayudar a sus amigos, ademas se puede observar la evolucion de sus sentimientos hacia sombrio
+              </p>
+          
+          </div>
+          <button class="accordion">Regulus</button>
+          <div class="panel">
+            <img src="./imagenes/Régulus.jpg" alt="lo que sea">
+            <p>Este joven es Regulus, desde el primer momento empezo este viaje junto a sombrio, se criaron juntos desde que sombrio llego a su pueblo y son como hermanos,  <r>
+              tambien demostrara su ferrrea fuerza de voluntad a lo largo de la saga sin importar el problema o el peligro, nunca pierde del todo la fe
+              </p>
+          
+          </div>
+          <button class="accordion">Robinia</button>
+          <div class="panel">
+            <img src="./imagenes/Robinia.jpg" alt="lo que sea">
+            <p> Ella  se une a nuestros protagonistas en el primer libro, y aunque ellos al principio no lo sabian es la hermana menor del antiguo rey d elos elfos del bosque, <r>
+             y reina por derecho del mismo una vez que es salvado, pero deja aparcada sus obligaciones reales para ayudar a los que se han convertido en sus amigos,<r>
+               siempre va acompañada por fosforo un pequeño dragon 
+              </p>
+          
+          </div>
+          <button class="accordion">Strellarius</button>
+          <div class="panel">
+            <img src="./imagenes/estrellarius.PNG" alt="lo que sea">
+            <p> Un gran mago y encargado de mantener el orden en el continente dentro de lo posible, fue quien dejo a Sombrio de joven en el hogar de<r>
+              los elfos estrellados, e instruyo a Spika durante un tiempo ante de que se unieran al grupo
+              </p>
+          
+          </div>
+
+        </section>
+
+        <section id="objetos">
+          <div class="titulo-seccion">
+            <h2>Objetos</h2>
+           
+          </div>
+
+          <button class="accordion">Veneno</button>
+          <div class="panel">
+            <img src="./imagenes/veneno.gif" alt="lo que sea">
+            <p>Esta espada es de sombrio, pero le pertenecio a su padre, el nombre lo recibe cuando acaba con un escorpion gigante y esta absorve el veneno<r>
+              y obtiene un resplandor verde, pero no es lo unico que es capaz de hacer, tambien absorvio la habilidad de un arbol demonio y es capaz de crear raizes<r>
+                cuya fuerza puede destruir muros e incluso agrietar construcciones de hierro, como si fuera poco cada vez que hay un peligro cerca esta vibra avisando de este<r>
+                  para que su caballero este preparado
+            </p>
+          
+          </div>
+
+          <button class="accordion">Trino de las hadas</button>
+          <div class="panel">
+            <img src="./imagenes/trino.jfif" alt="lo que sea">
+            <p>Una simple campana a primera vista, pero al sonar emite unas ondas capaz de destruir el centro de la reina bruja y debilitarla</p>
+          </div>
+
+          <button class="accordion">Anillo de luz </button>
+          <div class="panel">
+            <img src="./imagenes/anillo.jfif" alt="lo que sea">
+            <p>Este anillo se le otorgan a pocas personas, si no me equivoco solo al rey/jefe de los caballeros de la rosa</p>
+          </div>
+
+        </section>
+        <!-- SECCIÓN CONTACTO CON 2 MITADES: MAPA Y INFO -->
+        <section id="contacto">
+          <div class="titulo-seccion">
+            <h2>Contacto</h2>
+            <p>Para cualquier información, contacta con nosotros</p>
+          </div>
+          <div class="mitad" id="mapa">
+            <iframe id="mimapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.2563608884902!2d-4.55699608500058!3d36.740417179961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f1d2ffe3a137%3A0xe095a3ea561debe2!2sCalle%20Frederick%20Terman%2C%2029590%2C%20M%C3%A1laga!5e0!3m2!1ses!2ses!4v1582189678693!5m2!1ses!2ses"  frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          </div>
+          <div class="mitad" id="info">
+            <dl>
+              <dt><i class="fa fa-map-marker" aria-hidden="true"></i> Dirección:</dt>
+              <dd>C/ Frederick Terman s/n<br>
+                  29590 - Campanillas</dd>
+              <dt><i class="fa fa-phone" aria-hidden="true"></i> Teléfono:</dt>
+              <dd>952433272</dd>
+              
+              <dt><i class="fa fa-envelope" aria-hidden="true"></i> Instagram:</dt>
+              <dd>https://www.instagram.com/iescampanillas/?hl=es</dd>
+            </dl>
+          </div>
+          <div class="final"></div>
+        </section>
+        <footer>
+
+        </footer>
+   </div>
+   <script>
+       var slideIndex = 1;
+       showSlides(slideIndex);
+       /****** aqui va lo de accordion *****/
+
+       var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+
+   </script>
+</body>
+</html>
